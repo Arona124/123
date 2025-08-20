@@ -1,19 +1,3 @@
---[[
-     _      ___         ____  ______
-    | | /| / (_)__  ___/ / / / /  _/
-    | |/ |/ / / _ \/ _  / /_/ // /  
-    |__/|__/_/_//_/\_,_/\____/___/
-    
-    by .ftgs#0 (Discord)
-    
-    This script is NOT intended to be modified.
-    To view the source code, see the 'Src' folder on the official GitHub repository.
-    
-    Author: .ftgs#0 (Discord User)
-    Github: https://github.com/Footagesus/WindUI
-    Discord: https://discord.gg/84CNGY5wAV
-]]
-
 
 local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()
 
@@ -921,6 +905,16 @@ Background="#111827",
 Button="#4b5563",
 Icon="#f9a8d4",
 },
+PinkWhite={
+Name="PinkWhite",
+Accent="#f472b6",
+Outline="#ffffff",
+Text="#ffffff",
+Placeholder="#f9a8d4",
+Background="#1f1f1f",
+Button="#f472b6",
+Icon="#ffffff",
+},              
 }end function a.e()
 
 
