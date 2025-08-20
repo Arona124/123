@@ -910,6 +910,17 @@ Background="#064e3b",
 Button="#10b981",
 Icon="#a7f3d0",
 },
+LightPinkGray={
+Name ="LightPinkGray",
+Accent="#6b7280",
+Dialog="#4b5563",
+Outline="#f9a8d4",
+Text="#f9a8d4",
+Placeholder="#f9a8d4",
+Background="#e5e7eb",
+Button="#9ca3af",
+Icon="#f9a8d4",
+},              
 }end function a.e()
 
 
