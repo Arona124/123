@@ -791,9 +791,8 @@ return i
 end
 
 return g end function a.d()
-return{
-Dark={
-Name="Dark",
+ 특별테마색상1={
+Name="특별테마색상1",
 Accent="#18181b",
 Dialog="#161616",
 Outline="#FFFFFF",
@@ -803,8 +802,8 @@ Background="#101010",
 Button="#52525b",
 Icon="#a1a1aa",
 },
-Light={
-Name="Light",
+특별테마색상2={
+Name="특별테마색상2",
 Accent="#FFFFFF",
 Dialog="#f4f4f5",
 Outline="#09090b",
@@ -814,8 +813,8 @@ Background="#e4e4e7",
 Button="#18181b",
 Icon="#52525b",
 },
-Rose={
-Name="Rose",
+특별테마색상3={
+Name="특별테마색상4",
 Accent="#f43f5e",
 Outline="#ffe4e6",
 Text="#ffe4e6",
@@ -824,8 +823,8 @@ Background="#881337",
 Button="#e11d48",
 Icon="#fecdd3",
 },
-Plant={
-Name="Plant",
+특별테마색상5={
+Name="특별테마색상5",
 Accent="#22c55e",
 Outline="#dcfce7",
 Text="#dcfce7",
@@ -834,8 +833,8 @@ Background="#14532d",
 Button="#22c55e",
 Icon="#86efac",
 },
-Red={
-Name="Red",
+특별테마색상6={
+Name="특별테마색상6",
 Accent="#ef4444",
 Outline="#fee2e2",
 Text="#ffe4e6",
@@ -844,8 +843,8 @@ Background="#7f1d1d",
 Button="#ef4444",
 Icon="#fecaca",
 },
-Indigo={
-Name="Indigo",
+특별테마색상7={
+Name="특별테마색상7",
 Accent="#6366f1",
 Outline="#e0e7ff",
 Text="#e0e7ff",
@@ -854,8 +853,8 @@ Background="#312e81",
 Button="#6366f1",
 Icon="#c7d2fe",
 },
-Sky={
-Name="Sky",
+특별테마색상8={
+Name="특별테마색상8",
 Accent="#0ea5e9",
 Outline="#e0f2fe",
 Text="#e0f2fe",
@@ -864,8 +863,8 @@ Background="#075985",
 Button="#0ea5e9",
 Icon="#bae6fd",
 },
-Violet={
-Name="Violet",
+특별테마색상9={
+Name="특별테마색상9",
 Accent="#8b5cf6",
 Outline="#ede9fe",
 Text="#ede9fe",
@@ -874,8 +873,8 @@ Background="#4c1d95",
 Button="#8b5cf6",
 Icon="#ddd6fe",
 },
-Amber={
-Name="Amber",
+특별테마색상10={
+Name="특별테마색상10",
 Accent="#f59e0b",
 Outline="#fef3c7",
 Text="#fef3c7",
@@ -884,8 +883,8 @@ Background="#78350f",
 Button="#f59e0b",
 Icon="#fde68a",
 },
-Emerald={
-Name="Emerald",
+특별테마색상11={
+Name="특별테마색상11",
 Accent="#10b981",
 Outline="#d1fae5",
 Text="#d1fae5",
@@ -894,8 +893,8 @@ Background="#064e3b",
 Button="#10b981",
 Icon="#a7f3d0",
 },
-DarkPinkGray={
-Name="DarkPinkGray",
+특별테마색상12={
+Name="특별테마색상12",
 Accent="#374151",
 Dialog="#1f2937",
 Outline="#f9a8d4",
@@ -905,16 +904,6 @@ Background="#111827",
 Button="#4b5563",
 Icon="#f9a8d4",
 },
-PinkWhite={
-Name="PinkWhite",
-Accent="#f472b6",
-Outline="#ffffff",
-Text="#ffffff",
-Placeholder="#f9a8d4",
-Background="#1f1f1f",
-Button="#f472b6",
-Icon="#ffffff",
-},              
 }end function a.e()
 
 
