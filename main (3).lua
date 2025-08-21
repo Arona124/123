@@ -791,8 +791,8 @@ return i
 end
 
 return g end function a.d()
- 특별테마색상1={
-Name="특별테마색상1",
+Arona1={
+Name="Arona1",
 Accent="#18181b",
 Dialog="#161616",
 Outline="#FFFFFF",
@@ -802,8 +802,8 @@ Background="#101010",
 Button="#52525b",
 Icon="#a1a1aa",
 },
-특별테마색상2={
-Name="특별테마색상2",
+Arona2={
+Name="Arona2",
 Accent="#FFFFFF",
 Dialog="#f4f4f5",
 Outline="#09090b",
@@ -813,8 +813,8 @@ Background="#e4e4e7",
 Button="#18181b",
 Icon="#52525b",
 },
-특별테마색상3={
-Name="특별테마색상4",
+Arona3={
+Name="Arona4",
 Accent="#f43f5e",
 Outline="#ffe4e6",
 Text="#ffe4e6",
@@ -823,8 +823,8 @@ Background="#881337",
 Button="#e11d48",
 Icon="#fecdd3",
 },
-특별테마색상5={
-Name="특별테마색상5",
+Arona5={
+Name="Arona5",
 Accent="#22c55e",
 Outline="#dcfce7",
 Text="#dcfce7",
@@ -833,8 +833,8 @@ Background="#14532d",
 Button="#22c55e",
 Icon="#86efac",
 },
-특별테마색상6={
-Name="특별테마색상6",
+Arona6={
+Name="Arona6",
 Accent="#ef4444",
 Outline="#fee2e2",
 Text="#ffe4e6",
@@ -843,8 +843,8 @@ Background="#7f1d1d",
 Button="#ef4444",
 Icon="#fecaca",
 },
-특별테마색상7={
-Name="특별테마색상7",
+Arona7={
+Name="Arona7",
 Accent="#6366f1",
 Outline="#e0e7ff",
 Text="#e0e7ff",
@@ -853,8 +853,8 @@ Background="#312e81",
 Button="#6366f1",
 Icon="#c7d2fe",
 },
-특별테마색상8={
-Name="특별테마색상8",
+Arona8={
+Name="Arona8",
 Accent="#0ea5e9",
 Outline="#e0f2fe",
 Text="#e0f2fe",
@@ -863,8 +863,8 @@ Background="#075985",
 Button="#0ea5e9",
 Icon="#bae6fd",
 },
-특별테마색상9={
-Name="특별테마색상9",
+Arona9={
+Name="Arona9",
 Accent="#8b5cf6",
 Outline="#ede9fe",
 Text="#ede9fe",
@@ -873,8 +873,8 @@ Background="#4c1d95",
 Button="#8b5cf6",
 Icon="#ddd6fe",
 },
-특별테마색상10={
-Name="특별테마색상10",
+Arona10={
+Name="Arona10",
 Accent="#f59e0b",
 Outline="#fef3c7",
 Text="#fef3c7",
@@ -883,8 +883,8 @@ Background="#78350f",
 Button="#f59e0b",
 Icon="#fde68a",
 },
-특별테마색상11={
-Name="특별테마색상11",
+Arona11={
+Name="Arona11",
 Accent="#10b981",
 Outline="#d1fae5",
 Text="#d1fae5",
@@ -893,8 +893,8 @@ Background="#064e3b",
 Button="#10b981",
 Icon="#a7f3d0",
 },
-특별테마색상12={
-Name="특별테마색상12",
+Arona12={
+Name="Arona12",
 Accent="#374151",
 Dialog="#1f2937",
 Outline="#f9a8d4",
