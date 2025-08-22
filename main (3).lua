@@ -1,3 +1,19 @@
+--[[
+     _      ___         ____  ______
+    | | /| / (_)__  ___/ / / / /  _/
+    | |/ |/ / / _ \/ _  / /_/ // /  
+    |__/|__/_/_//_/\_,_/\____/___/
+    
+    by .ftgs#0 (Discord)
+    
+    This script is NOT intended to be modified.
+    To view the source code, see the 'Src' folder on the official GitHub repository.
+    
+    Author: .ftgs#0 (Discord User)
+    Github: https://github.com/Footagesus/WindUI
+    Discord: https://discord.gg/84CNGY5wAV
+]]
+
 
 local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()
 
@@ -791,16 +807,108 @@ return i
 end
 
 return g end function a.d()
-Arona12={
-Name="Arona12",
-Accent="#374151",
-Dialog="#1f2937",
-Outline="#f9a8d4",
-Text="#f9a8d4",
-Placeholder="#f9a8d4",
-Background="#111827",
-Button="#4b5563",
-Icon="#f9a8d4",
+return{
+Dark={
+Name="Dark",
+Accent="#18181b",
+Dialog="#161616",
+Outline="#FFFFFF",
+Text="#FFFFFF",
+Placeholder="#999999",
+Background="#101010",
+Button="#52525b",
+Icon="#a1a1aa",
+},
+Light={
+Name="Light",
+Accent="#FFFFFF",
+Dialog="#f4f4f5",
+Outline="#09090b",
+Text="#000000",
+Placeholder="#777777",
+Background="#e4e4e7",
+Button="#18181b",
+Icon="#52525b",
+},
+Rose={
+Name="Rose",
+Accent="#f43f5e",
+Outline="#ffe4e6",
+Text="#ffe4e6",
+Placeholder="#fda4af",
+Background="#881337",
+Button="#e11d48",
+Icon="#fecdd3",
+},
+Plant={
+Name="Plant",
+Accent="#22c55e",
+Outline="#dcfce7",
+Text="#dcfce7",
+Placeholder="#bbf7d0",
+Background="#14532d",
+Button="#22c55e",
+Icon="#86efac",
+},
+Red={
+Name="Red",
+Accent="#ef4444",
+Outline="#fee2e2",
+Text="#ffe4e6",
+Placeholder="#fca5a5",
+Background="#7f1d1d",
+Button="#ef4444",
+Icon="#fecaca",
+},
+Indigo={
+Name="Indigo",
+Accent="#6366f1",
+Outline="#e0e7ff",
+Text="#e0e7ff",
+Placeholder="#a5b4fc",
+Background="#312e81",
+Button="#6366f1",
+Icon="#c7d2fe",
+},
+Sky={
+Name="Sky",
+Accent="#0ea5e9",
+Outline="#e0f2fe",
+Text="#e0f2fe",
+Placeholder="#7dd3fc",
+Background="#075985",
+Button="#0ea5e9",
+Icon="#bae6fd",
+},
+Violet={
+Name="Violet",
+Accent="#8b5cf6",
+Outline="#ede9fe",
+Text="#ede9fe",
+Placeholder="#c4b5fd",
+Background="#4c1d95",
+Button="#8b5cf6",
+Icon="#ddd6fe",
+},
+Amber={
+Name="Amber",
+Accent="#f59e0b",
+Outline="#fef3c7",
+Text="#fef3c7",
+Placeholder="#fcd34d",
+Background="#78350f",
+Button="#f59e0b",
+Icon="#fde68a",
+},
+Emerald={
+Name="Emerald",
+Accent="#10b981",
+Outline="#d1fae5",
+Text="#d1fae5",
+Placeholder="#6ee7b7",
+Background="#064e3b",
+Button="#10b981",
+Icon="#a7f3d0",
 },
 }end function a.e()
 
