@@ -896,16 +896,62 @@ Background="#064e3b",
 Button="#10b981",
 Icon="#a7f3d0",
 },
-Arona={
-Name="Arona",
-Accent="#374151",
-Dialog="#1f2937",
-Outline="#f9a8d4",
-Text="#f9a8d4",
-Placeholder="#f9a8d4",
-Background="#111827",
-Button="#4b5563",
-Icon="#f9a8d4",
+AronaGradient = {
+    Name = {
+        ["0"] = { Color = Color3.fromHex("#8B5CF6"), Transparency = 0 },   -- 보라
+        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },  -- 핑크
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },  -- 연한 핑크
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }  -- 하얀색
+    },
+    Accent = {
+        ["0"] = { Color = Color3.fromHex("#7C3AED"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#DB2777"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    },
+    Dialog = {
+        ["0"] = { Color = Color3.fromHex("#6D28D9"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#FBCFE8"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    },
+    Outline = {
+        ["0"] = { Color = Color3.fromHex("#9333EA"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#F472B6"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    },
+    Text = {
+        ["0"] = { Color = Color3.fromHex("#A78BFA"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    },
+    Placeholder = {
+        ["0"] = { Color = Color3.fromHex("#C4B5FD"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#F472B6"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    },
+    Background = {
+        ["0"] = { Color = Color3.fromHex("#5B21B6"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    },
+    Button = {
+        ["0"] = { Color = Color3.fromHex("#6D28D9"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#DB2777"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    },
+    Icon = {
+        ["0"] = { Color = Color3.fromHex("#A78BFA"), Transparency = 0 },
+        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
+        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
+        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
+    }
+}
 },               
 }end function a.e()
 
