@@ -809,22 +809,49 @@ end
 return g end function a.d()
 return{
 Dark={
+local Theme = {
 Name="Dark",
+Accent="#FF0000",
+Dialog="#FF7F00",
+Outline="#FFFF00",
+Text="#00FF00",
+Placeholder="#0000FF",
 Background="#101010",
-Dialog="#161616",
-Accent="#18181b",
-Outline="#FFFFFF",
-Text="#FFFFFF",
-Placeholder="#999999",
-Icon="#a1a1aa"
-Button={
-"#FF0000",
-"#FF7F00",
-"#FFFF00",
-"#00FF00",
-"#0000FF",
-"#4B0082",
-"#8F00FF"
+Button="#4B0082",
+Icon="#8F00FF"
+}
+
+local rainbowHEX = {
+    "#FF0000",
+    "#FF7F00",
+    "#FFFF00",
+    "#00FF00",
+    "#0000FF",
+    "#4B0082",
+    "#8F00FF"
+}
+
+local function AnimateThemeHEX(theme)
+    local index = 1
+    task.spawn(function()
+        while task.wait(0.05) do
+            theme.Accent = rainbowHEX[index]
+            theme.Dialog = rainbowHEX[(index+1) % #rainbowHEX + 1]
+            theme.Outline = rainbowHEX[(index+2) % #rainbowHEX + 1]
+            theme.Text = rainbowHEX[(index+3) % #rainbowHEX + 1]
+            theme.Placeholder = rainbowHEX[(index+4) % #rainbowHEX + 1]
+            theme.Button = rainbowHEX[(index+5) % #rainbowHEX + 1]
+            theme.Icon = rainbowHEX[(index+6) % #rainbowHEX + 1]
+
+            index = index + 1
+            if index > #rainbowHEX then
+                index = 1
+            end
+        end
+    end)
+end
+
+AnimateThemeHEX(Theme)
 },
 
 },
