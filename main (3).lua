@@ -1,4 +1,18 @@
-
+--[[
+     _      ___         ____  ______
+    | | /| / (_)__  ___/ / / / /  _/
+    | |/ |/ / / _ \/ _  / /_/ // /  
+    |__/|__/_/_//_/\_,_/\____/___/
+    
+    by .ftgs#0 (Discord)
+    
+    This script is NOT intended to be modified.
+    To view the source code, see the 'Src' folder on the official GitHub repository.
+    
+    Author: .ftgs#0 (Discord User)
+    Github: https://github.com/Footagesus/WindUI
+    Discord: https://discord.gg/84CNGY5wAV
+]]
 
 
 local a a={cache={}, load=function(b)if not a.cache[b]then a.cache[b]={c=a[b]()}end return a.cache[b].c end}do function a.a()
@@ -896,63 +910,6 @@ Background="#064e3b",
 Button="#10b981",
 Icon="#a7f3d0",
 },
-AronaGradient = {
-    Name = {
-        ["0"] = { Color = Color3.fromHex("#8B5CF6"), Transparency = 0 },   -- 보라
-        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },  -- 핑크
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },  -- 연한 핑크
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }  -- 하얀색
-    },
-    Accent = {
-        ["0"] = { Color = Color3.fromHex("#7C3AED"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#DB2777"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    },
-    Dialog = {
-        ["0"] = { Color = Color3.fromHex("#6D28D9"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#FBCFE8"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    },
-    Outline = {
-        ["0"] = { Color = Color3.fromHex("#9333EA"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#F472B6"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    },
-    Text = {
-        ["0"] = { Color = Color3.fromHex("#A78BFA"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    },
-    Placeholder = {
-        ["0"] = { Color = Color3.fromHex("#C4B5FD"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#F472B6"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    },
-    Background = {
-        ["0"] = { Color = Color3.fromHex("#5B21B6"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    },
-    Button = {
-        ["0"] = { Color = Color3.fromHex("#6D28D9"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#DB2777"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    },
-    Icon = {
-        ["0"] = { Color = Color3.fromHex("#A78BFA"), Transparency = 0 },
-        ["33"] = { Color = Color3.fromHex("#EC4899"), Transparency = 0 },
-        ["66"] = { Color = Color3.fromHex("#F9A8D4"), Transparency = 0 },
-        ["100"] = { Color = Color3.fromHex("#FFFFFF"), Transparency = 0 }
-    }
-}
-},               
 }end function a.e()
 
 
